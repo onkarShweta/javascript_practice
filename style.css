@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100;
+    width: 100;
+    background-color: aqua;
+   
+}
+#bulb{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+#btn{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    height: 50px;
+    width: 60px;
+    /* border-radius: 50%; */
+    border: 2px solid black;
+}
